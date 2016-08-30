@@ -28,11 +28,12 @@ Pandik uses `~/.pandik.json` file for configuration by default, but you can over
 
   "monitors": [
     {
-      "type": "http-status",
-      "url": "http://localhost:8000",
-      "name": "My website healthcheck",
+      "type": "http-content",
+      "url": "http://www.microsoft.com",
+      "name": "Microsoft healthcheck",
       "freq": "10s",
-      "timeout": "2s"
+      "timeout": "2s",
+      "content": "Microsoft"
     }
 
   ],
