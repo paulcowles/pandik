@@ -11,6 +11,7 @@ type MonitorConf struct {
 	Name    string
 	Timeout string
 	Data    map[string]string
+	Content string
 }
 
 type Monitor struct {
